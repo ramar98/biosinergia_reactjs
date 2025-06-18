@@ -1,0 +1,25 @@
+.control-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.control-panel button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.control-panel .on {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.control-panel .off {
+  background-color: #ccc;
+  color: black;
+}
